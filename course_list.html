@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #container {
+        text-align: center;
+    }
+
+    #new_container {
+        text-align: center;
+    }
+</style>
+
+<body>
+    <table width="60%" border="0" cellspacing="0" align="center">
+        <td>
+            <h1>Choose Your Course</h1>
+            <hr>
+        </td>
+
+    </table>
+
+
+    <br>
+    <table width="50%" border="0" cellspacing="0" align="center">
+        <tr>
+            <td><b style="font-size: 20px;">Available Subjects</b></td>
+            <td>
+            </td>
+            <td><b style="font-size: 20px;">Selected Subjects</b></td>
+        </tr>
+        <tr>
+
+            <td valign="top">
+                <select name="course_subject" id="course_subjects" style="width:400px;height:200px" multiple>
+                    <option value="c_programming">C Programming</option>
+                    <option value="cs_Programming">C# Programming</option>
+                    <option value="web_development">Web Development</option>
+                    <option value="database_programming">Database programming</option>
+                    <option value="web_design">Web Design</option>
+                    <option value="mobile_app_development">Mobile App Development</option>
+                    <option value="system_design">System Design</option>
+                </select>
+            </td>
+
+            <td>
+                <div id="container">
+                    <button type="button"> > </button><br><br>
+                    <button type="button"> >> </button><br><br>
+                    <button type="button">
+                        << </button><br><br>
+                            <button type="button"> >> </button>
+
+                </div>
+
+            </td>
+
+
+
+            <td valign="top">
+                <select name="selected_subjects" id="selected_subjects" style="width:400px;height:200px" multiple>
+                    <option value="asp_core_net">ASP.NET core</option>
+
+                </select>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <div id="new_container">
+        <button id="button">Submit Course</button>
+    </div>
+
+</body>
+
+</html>

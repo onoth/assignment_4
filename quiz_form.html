@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quiz form</title>
+</head>
+<style>
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30;
+    }
+
+    #container {
+        text-align: center;
+    }
+</style>
+
+<body>
+    <img src="img/logo.png" alt="logo" class="center">
+    <br>
+    <h3 align="center">
+        <u>Quiz #1</u>
+    </h3>
+
+    <ol type="I">
+        <li><b>MCQ Questions(30 pts)</b>
+            <br><br>
+            <ol type="1">
+                <li>What is HTML?
+                    <br><input type="radio" name="q_choice"> is a programming language
+                    <br><input type="radio" name="q_choice"> is a styling language
+                    <br><input type="radio" name="q_choice"> is a markup language
+                </li><br>
+                <li>Which one is the correct tag add and image?
+                    <br><input type="radio" name="q_2_choice"> image
+                    <br><input type="radio" name="q_2_choice"> table
+                    <br><input type="radio" name="q_2_choice"> img
+
+                </li>
+            </ol>
+        </li><br>
+        <li> <b>Matching Questions(30 pts)</b></b>
+            <br><br>
+            <table width=90% border="1" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th align="center">Part A</th>
+                        <th align="center">Part B</th>
+                        <th align="center">Answer</th>
+                    </tr>
+
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <ol type="1">
+                                <li>Attribute</li>
+                                <li>Form</li>
+                                <li>Order list</li>
+                            </ol>
+
+                        </td>
+                        <td>
+                            <ol type="A">
+                                <li>Tell more information to the tag.</li>
+                                <li>Generate and order list with number.</li>
+                                <li>Allows you to collect information.</li>
+                            </ol>
+
+                        </td>
+                        <td align="center">
+                            1. &#8594 <select name="option" id="option"></select><br>
+                            2. &#8594 <select name="option" id="option"></select><br>
+                            3. &#8594 <select name="option" id="option"></select>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </li>
+    </ol>
+
+
+    <div id="container">
+        <button id="submit">Submit Answer</button>
+    </div>
+
+</body>
+
+</html>
